@@ -1,0 +1,35 @@
+### GET request
+GET http://localhost:8080/users
+
+### GET users by ID
+GET http://localhost:8080/users/100
+
+### POST request
+POST http://localhost:8080/user
+Content-Type: application/json
+
+{
+    "id":100,
+    "name":"yash",
+    "age":21,
+    "city":"mumbai"
+}
+
+### PUT request
+PUT http://localhost:8080/user
+Content-Type: application/json
+
+{
+    "id":100,
+    "name":"Bhanu",
+    "age":25,
+    "city":"delhi"
+}
+
+### DELETE request
+DELETE http://localhost:8080/user
+Content-Type: application/json
+
+{
+    "id":100
+}
