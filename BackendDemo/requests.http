@@ -1,0 +1,11 @@
+### GET request
+GET http://localhost:8080/users
+
+### POST request
+POST http://localhost:8080/users
+
+### PUT request
+PUT http://localhost:8080/users
+
+### DELETE request
+DELETE http://localhost:8080/users
