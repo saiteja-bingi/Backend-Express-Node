@@ -98,3 +98,6 @@ app.get('/users', middleware1, (req, res) => {
 ```
 app.use(middleware1) // use middleware1 for all req
 ```
+
+dont create express app in every file
+instead create mini express application (seperate route)

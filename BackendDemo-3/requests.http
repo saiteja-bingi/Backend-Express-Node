@@ -1,0 +1,72 @@
+### GET request
+GET http://localhost:8080/user-api/users
+
+### GET users by ID
+GET http://localhost:8080/user-api/users/100
+
+### POST request
+POST http://localhost:8080/user-api/user
+Content-Type: application/json
+
+{
+    "id":100,
+    "name":"yash",
+    "age":21,
+    "city":"mumbai"
+}
+
+### PUT request
+PUT http://localhost:8080/user-api/user
+Content-Type: application/json
+
+{
+    "id":100,
+    "name":"Bhanu",
+    "age":25,
+    "city":"delhi"
+}
+
+### DELETE request
+DELETE http://localhost:8080/user-api/user
+Content-Type: application/json
+
+{
+    "id":100
+}
+
+# for product
+### GET request
+GET http://localhost:8080/product-api/products
+
+### GET products by ID
+GET http://localhost:8080/product-api/products/100
+
+### POST request
+POST http://localhost:8080/product-api/product
+Content-Type: application/json
+
+{
+    "id":100,
+    "name":"product1",
+    "price":100,
+    "category":"category1"
+}
+
+### PUT request
+PUT http://localhost:8080/product-api/product
+Content-Type: application/json
+
+{
+    "id":100,
+    "name":"Bhanu",
+    "age":25,
+    "city":"delhi"
+}
+
+### DELETE request
+DELETE http://localhost:8080/product-api/product
+Content-Type: application/json
+
+{
+    "id":100
+}
